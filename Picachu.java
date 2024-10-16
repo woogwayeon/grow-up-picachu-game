@@ -1,4 +1,4 @@
-package abstarctGame;
+package abstarctGame_hp;
 
 public class Picachu extends Character{
 
@@ -16,13 +16,13 @@ public class Picachu extends Character{
 
     public void eat()
     {
-        energy += 10;
+        energy = energy + 10;
     }
     // 먹는 일을 해요
 
     public void sleep()
     {
-        energy += 10;
+        energy = energy + 5;
     }// 자는 일을 해요
 
     public void levelUp()
@@ -32,7 +32,8 @@ public class Picachu extends Character{
             level++;
             hp = hp - 40;
         }
-        System.out.println();
+//        System.out.println("level = " + level +" hp = " + hp);
+//        System.out.println();
     }
     // 경험치가 얼만큼 차면 레벨이 올라가고
 

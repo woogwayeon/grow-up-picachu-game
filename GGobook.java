@@ -1,4 +1,4 @@
-package abstarctGame;
+package abstarctGame_hp;
 
 public class GGobook extends Character{
 

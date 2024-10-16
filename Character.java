@@ -1,4 +1,4 @@
-package abstarctGame;
+package abstarctGame_hp;
 
 public abstract class Character {
 
@@ -28,6 +28,7 @@ public abstract class Character {
         {
             ret = true;  // 에너지가 0보다 작으면 뒤짐니다..
             System.out.println("에너지가 " + energy + "이 되어 쓰러졌습니다");
+            System.out.println();
         }
         else
         {

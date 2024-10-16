@@ -1,4 +1,4 @@
-package abstarctGame;
+package abstarctGame_hp;
 import java.util.Scanner;
 
 public class PlayGame {
